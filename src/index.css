@@ -1,0 +1,42 @@
+@import './styles/globals.css';
+
+
+:root {
+
+  /** Colors primary **/
+  /* intro and email sign up background */
+  --color-navy-850: hsl(217, 28%, 15%);
+
+  /* main background */
+  --color-navy-900: hsl(218, 28%, 13%);
+
+  /* footer background */
+  --color-navy-950: hsl(216, 53%, 9%);
+
+  /* testimonials background */
+  --color-navy-800: hsl(219, 30%, 18%);
+
+  /** Acent **/
+  /* inside call-to-action gradient */
+  --color-teal-200: hsl(176, 68%, 64%);
+
+  /* inside call-to-action gradient */
+  --color-cyan-500: hsl(198, 60%, 50%);
+
+  /* error */
+  --color-red-500: hsl(0, 100%, 63%);
+
+  /** Neutral **/
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-body: 14px;
+  --font-root: 'Raleway';
+  --font-w-400: 400;
+  --font-w-700: 700;
+}
+
+body {
+  background-color: var(--color-navy-900);
+  color: var(--color-white);
+}
