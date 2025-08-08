@@ -1,0 +1,15 @@
+.navigator {
+  display: flex;
+  gap: 3rem;
+  
+  
+  .link {
+    font-weight: 400;
+    color: var(--color-white);
+
+    &:hover {
+      font-weight: 800;
+      text-decoration: underline;
+    }
+  }
+}

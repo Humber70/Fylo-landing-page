@@ -4,7 +4,7 @@ import Navigator from '../Navigator/Navigator'
 export default function Header () {
   return (
     <header className={css.header}>
-      <img src="/assets/images/logo.svg" alt="logo-image" />
+      <img className={css.logo} src="/assets/images/logo.svg" alt="logo-image" />
       <Navigator />
     </header>
   )
