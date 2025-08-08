@@ -1,5 +1,10 @@
 @import './styles/globals.css';
 
+@font-face {
+  font-family: 'Raleway';
+  src: url('/assets/fonts/Raleway-VariableFont_wght.woff') format("woff");
+  font-display: swap;
+}
 
 :root {
 
@@ -30,8 +35,9 @@
   --color-white: hsl(0, 0%, 100%);
 
   /* Typography */
-  --font-body: 14px;
-  --font-root: 'Raleway';
+  --font-size-body: 14px;
+  --font-headers: 'Raleway';
+  --font-body: 'Open Sans';
   --font-w-400: 400;
   --font-w-700: 700;
 }
