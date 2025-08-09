@@ -8,7 +8,7 @@
     color: var(--color-white);
 
     &:hover {
-      font-weight: 800;
+      text-shadow: 1px 0 0 var(--color-white);
       text-decoration: underline;
     }
   }
