@@ -1,29 +1,35 @@
 @import './styles/globals.css';
 
 @font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/Open-Sans/OpenSans-VariableFont_wdth,wght.ttf') format('truetype-variations');
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Raleway';
-  src: url('/assets/fonts/Raleway-Regular.ttf') format("truetype");
+  src: url('/assets/fonts/Raleway/Raleway-Regular.ttf') format("truetype");
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Raleway';
-  src: url('/assets/fonts/Raleway-Medium.ttf') format('truetype');
+  src: url('/assets/fonts/Raleway/Raleway-Medium.ttf') format('truetype');
   font-weight: 500;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Raleway';
-  src: url('/assets/fonts/Raleway-Bold.ttf') format('truetype');
+  src: url('/assets/fonts/Raleway/Raleway-Bold.ttf') format('truetype');
   font-weight: 700;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Raleway';
-  src: url('/assets/fonts/Raleway-SemiBold.ttf') format('truetype');
+  src: url('/assets/fonts/Raleway/Raleway-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-display: swap;
 }
@@ -65,6 +71,8 @@
 }
 
 body {
+  font-size: var(--font-size-body);
+  font-family: var(--font-headers), sans-serif;
   background-color: var(--color-navy-900);
   color: var(--color-white);
 }
