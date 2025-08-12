@@ -73,6 +73,6 @@
 body {
   font-size: var(--font-size-body);
   font-family: var(--font-headers), sans-serif;
-  background-color: var(--color-navy-900);
+  background-color: var(--color-navy-850);
   color: var(--color-white);
 }
