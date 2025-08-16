@@ -1,0 +1,36 @@
+.infoSection {
+  width: 100%;
+  background-color: var(--color-navy-900);
+}
+.contentInfoSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  img {
+    width: 500px;
+    object-fit: contain;
+  }
+}
+
+.contentDescription {
+  max-width: 40%;
+
+  p {
+    padding: .7rem 0;
+    font-weight: 500;
+    color: #c9c7c7;
+  }
+
+  h2 {
+    width: 300px;
+    font-size: 2rem;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: underline;
+    color: var(--color-cyan-500);
+  }
+}
