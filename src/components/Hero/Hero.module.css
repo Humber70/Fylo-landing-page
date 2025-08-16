@@ -4,9 +4,8 @@
   align-items: center;
   gap: 4rem;
   justify-content: flex-start;
-  /* height: 900px; */
-  padding-bottom: 5rem;
 
+  background-color: var(--color-navy-850);
   background-image: url('/assets/images/bg-curvy-desktop.svg');
   background-repeat: no-repeat;
   background-position: center bottom;

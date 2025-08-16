@@ -76,3 +76,10 @@ body {
   background-color: var(--color-navy-850);
   color: var(--color-white);
 }
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  background-color: var(--color-navy-900);
+
+}
