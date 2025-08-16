@@ -20,6 +20,7 @@
   p {
     padding: .7rem 0;
     font-weight: 500;
+    line-height: 1.5rem;
     color: #c9c7c7;
   }
 
@@ -29,8 +30,9 @@
   }
 
   a {
+    padding-bottom: .3rem;
+    border-bottom: 2px solid var(--color-teal-200);
     display: inline-block;
-    text-decoration: underline;
-    color: var(--color-cyan-500);
+    color: var(--color-teal-200);
   }
 }
