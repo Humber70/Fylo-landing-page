@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  background-color: var(--color-navy-950);
+}
+
+.contentFooter {
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 9rem 0;
+}
+
+.contentInfo {
+  display: flex;
+  align-items: baseline;
+}
+
