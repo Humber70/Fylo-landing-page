@@ -10,7 +10,42 @@
 }
 
 .contentInfo {
+  margin-top: 2rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1.9fr 1fr 1fr 1fr;
+}
+
+.footerLinks {
   display: flex;
-  align-items: baseline;
+  align-items: first baseline;
+  gap: 3rem;
+
+  li {
+    margin: 0 0 1rem;
+  }
+
+  a {
+    display: inline-block;
+    color: var(--color-white);
+  }
+}
+
+.adress, .social {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  
+  .itemContact {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 
