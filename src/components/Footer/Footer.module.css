@@ -1,6 +1,9 @@
 .footer {
   width: 100%;
   background-color: var(--color-navy-950);
+  font-weight: 500;
+  color: #d6d6d6;
+
 }
 
 .contentFooter {
@@ -19,6 +22,7 @@
 .footerLinks {
   display: flex;
   align-items: first baseline;
+  justify-content: center;
   gap: 3rem;
 
   li {
@@ -27,7 +31,7 @@
 
   a {
     display: inline-block;
-    color: var(--color-white);
+    color: #d6d6d6;
   }
 }
 
@@ -37,9 +41,28 @@
   gap: 1rem;
 }
 
+.adress {
+  p {
+    line-height: 1.3rem;
+  }
+}
+
+.social {
+  justify-content: center;
+
+  img {
+    width: 20px;
+    outline: 1px solid rgb(182, 182, 182);
+    outline-offset: .4rem;
+    margin: 0 .4rem 0 0;
+    border-radius: 50%;
+  }
+}
+
 .contact {
   display: flex;
   flex-direction: column;
+  justify-self: center;
   gap: 1.5rem;
   
   .itemContact {
