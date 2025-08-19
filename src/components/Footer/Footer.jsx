@@ -11,14 +11,18 @@ export default function Footer () {
         <div className={css.contentInfo}>
           <div className={css.adress}>
             <img src="/assets/icons/icon-location.svg" alt="icon-location" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi nostrum, quae quaerat harum iste cum delectus incidunt voluptatum, quos repellat eum architecto officiis rem aliquid illo libero itaque modi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi nostrum, quae quaerat harum iste cum delectus incidunt voluptatum, quos repellat eum architecto officiis rem aliquid.</p>
           </div>
 
           <div className={css.contact}>
-            <img src="/assets/icons/icon-phone.svg" alt="icon-phone" />
-            <span>1928391</span>
-            <img src="/assets/icons/icon-email.svg" alt="icon-email" />
-            <span>email@example.com</span>
+            <div className={css.itemContact}>
+              <img src="/assets/icons/icon-phone.svg" alt="icon-phone" />
+              <span>+1-543-123-4567</span>
+            </div>
+            <div className={css.itemContact}>
+              <img src="/assets/icons/icon-email.svg" alt="icon-email" />
+              <span>example@fylo.com</span>
+            </div>
           </div>
 
           <div className={css.footerLinks}>
