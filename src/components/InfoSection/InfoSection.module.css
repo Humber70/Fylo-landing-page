@@ -30,9 +30,21 @@
   }
 
   a {
+    display: inline-flex;
+    align-items: center;
     padding-bottom: .3rem;
+    gap: 5px;
+
     border-bottom: 2px solid var(--color-teal-200);
-    display: inline-block;
     color: var(--color-teal-200);
+
+    &:hover {
+      filter: grayscale(100%);
+    }
+  }
+  
+  .iconLink {
+    width: 16px;
+    object-fit: contain;
   }
 }
