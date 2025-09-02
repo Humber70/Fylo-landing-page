@@ -50,12 +50,16 @@
 .social {
   justify-content: center;
 
-  img {
-    width: 20px;
-    outline: 1px solid rgb(182, 182, 182);
-    outline-offset: .4rem;
-    margin: 0 .4rem 0 0;
+  .iconsSocials {
     border-radius: 50%;
+    outline: 1px solid white;
+    outline-offset: 5px;
+
+
+    &:hover {
+      outline-color: var(--color-teal-200);
+      fill: var(--color-teal-200);
+    }
   }
 }
 
