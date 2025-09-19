@@ -13,6 +13,19 @@
 }
 
 
+span {
+  padding: 0rem 1rem;
+  height: 20px;
+}
+.messageError {
+  color: var(--color-red-500);
+}
+
+.messageSuccessful {
+  color: #11d611;
+}
+
+
 .contentEmailSignup {
   display: flex;
   flex-direction: column;
