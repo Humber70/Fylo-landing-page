@@ -12,6 +12,11 @@
     width: 500px;
     object-fit: contain;
   }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    gap: 4rem;
+  }
 }
 
 .contentDescription {
@@ -46,5 +51,15 @@
   .iconLink {
     width: 16px;
     object-fit: contain;
+  }
+
+  @media (max-width: 900px) {
+    max-width: 100%;
+
+    h2 {
+      width: auto;
+      font-size: 1.4rem;
+    }
+
   }
 }

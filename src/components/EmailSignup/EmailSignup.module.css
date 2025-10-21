@@ -10,6 +10,10 @@
   
   border-radius: .4rem;
   box-shadow: .4rem .4rem .3rem #131820;
+
+  @media (max-width: 900px) {
+    max-width: 90%;
+  }
 }
 
 
@@ -76,6 +80,19 @@ span {
       font-family: var(--font-headers);
       font-weight: 700;
       cursor: pointer;
+    }
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+
+      input {
+        padding: 1.2rem 2rem;
+      }
+
+      button {
+        width: 100%;
+        padding: 1.2rem 0;
+      }
     }
   }
 }

@@ -17,6 +17,12 @@
   display: grid;
   gap: 3rem;
   grid-template-columns: 1.9fr 1fr 1fr 1fr;
+
+  
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .footerLinks {
@@ -32,6 +38,11 @@
   a {
     display: inline-block;
     color: #d6d6d6;
+  }
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -73,6 +84,13 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+  }
+
+  @media (max-width: 900px) {
+
+    .itemContact {
+      gap: 0;
+    }
   }
 }
 
