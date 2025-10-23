@@ -1,7 +1,8 @@
 .navigator {
   display: flex;
-  gap: 3rem;
-  
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
   
   .link {
     font-weight: 400;
