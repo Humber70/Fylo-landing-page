@@ -38,7 +38,7 @@ export default function EmailSignup () {
         </div>
         <form onSubmit={handleSubmit}>
           <label htmlFor="email"></label>
-          <input id="email" type="email" placeholder='email@example.com' name='email'/>
+          <input id="email" type="email" placeholder='email@example.com' name='email' autoComplete='off'/>
           <button type='submit'>Get Started For Free</button>
         </form>
         {<span className={messageError.state ? `${css.messageError}` : `${css.messageSuccessful}`}>{messageError.state ? messageError.message : messageError.message}</span>}
