@@ -1,12 +1,11 @@
 # Frontend Mentor - Fylo dark theme landing page solution
 
-This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://google.com). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Fylo dark theme landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
 
@@ -21,8 +20,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Humber70/Fylo-landing-page)
+- Live Site URL: [Website - Netlify](https://fylo-dark-landing-page-frontend.netlify.app/)
 
 
 ## Built with
